@@ -1,0 +1,64 @@
+/* src/styles/Auth.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('../image.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif; /* Example font */
+    height: 100vh; /* Ensures full viewport height */
+    overflow-x: hidden; /* Prevents horizontal scroll */
+  }
+  /* src/styles/Auth.css */
+.auth-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .auth-container h2 {
+    margin-bottom: 20px;
+  }
+  
+  .auth-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .auth-form input {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .auth-form button {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .auth-form button:hover {
+    background-color: #218838;
+  }
+  
+  /* Style for Register button */
+  .auth-form button[type="button"] {
+    background-color: #218838;
+  }
+  
+  .auth-form button[type="button"]:hover {
+    background-color: #0056b3;
+  }
+  
